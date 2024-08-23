@@ -25,3 +25,17 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+### Third parties
+API DB -> https://web.dragonball-api.com/
+PRIME NG -> https://primeng.org/
+
+### INSTALL THIRD LIBARIES
+npm install [package] -> install globally
+npm install [package] --save -> install on local
+npm install -D [package] -> install like devDependencies
+
+
+SINGLETON -> Una instancia en todo la aplicación
+NO SINGLETON -> Una instancia por cada injección (cada uso)

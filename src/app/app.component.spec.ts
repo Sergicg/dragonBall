@@ -26,4 +26,10 @@ describe('AppComponent', () => {
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('h1')?.textContent).toContain('Hello, dragonBall');
   });
+
+  it('prueba de test', () => {
+    // Codigo a probar
+    const isValid: boolean = true;
+    expect(isValid).toBeTrue();
+  })
 });
