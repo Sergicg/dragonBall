@@ -3,7 +3,7 @@
 <div class="row">
     @for (character of lst_Characters; track character.id) {  
         <div class="col">
-            <div class="card" style="width: 18rem;">
+            <div class="card character" style="width: 18rem;">
                 <img [src]="character.image" class="card-img-top">
                 <div class="card-body">
                 <h5 class="card-title">{{character.name}}</h5>
